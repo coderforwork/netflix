@@ -1,0 +1,424 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: black;
+}
+.main{
+	background-image: url('wallpaper_net.jpeg');
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: max(100%,888px);
+	position: relative;
+	margin: auto;
+}
+.opacity{
+	width: 100%;
+	height: inherit;
+	background: black;
+	opacity: 0.44;
+	z-index: 1;
+	position: absolute;
+	top: 0%;
+}
+nav{
+	width: 80%;
+	height: 60px;
+	display: flex;
+	margin: auto ;
+	justify-content: space-between;
+	position: absolute;
+	top: 0%;
+	left: 10%;
+
+}
+.logo{
+	z-index: 10;
+}
+.logo img{
+	width: 100%;
+	height: 100px;
+}
+.top_butt{
+	position: relative;
+	top: 50%;
+	z-index: 10;
+
+}
+
+
+
+
+
+/*now front text*/
+
+.front_text {
+	color: white;
+
+	display: flex;
+	flex-direction: column;
+	text-transform: capitalize;
+	align-items: center;
+	justify-content: center;
+	padding: auto;
+	position: relative;
+	top: 35%;
+
+}
+#one_t{
+	font-size: 40px;
+	font-weight: 1000px;
+	padding: 20px;		
+	z-index: 10;
+	color: white;
+}
+
+#two_t{
+	font-size: 30px;
+	font-weight: 1000px;
+	padding:  0px 20px;		
+	z-index: 10;
+	color: white;	
+}
+#three_t{
+	font-size: 20px;
+	font-weight: 1000px;
+	padding: 20px;		
+	z-index: 10;
+	color: white;
+}
+.email{
+	width: 50%;
+	position: relative;
+	top: 35%;
+	left: 5%;
+	margin: auto;
+	z-index: 10;
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
+/*	margin: 0 -60px;*/
+}
+.email button{
+	text-transform: capitalize;
+	padding: 0 10px;
+}
+#email_bar{
+	width: 50%;
+	height: 35px;
+	padding: 0 10px;
+
+}
+.separate{
+	width: 100%;
+	height: 5px;
+	background: grey;
+	position: absolute;
+	top: 100%;
+}
+
+
+
+
+
+
+
+
+
+/*first ka section statrt ho rha h a*/
+.first{
+	width: 100%;
+	height: 446px;
+	position: relative;
+	top: 70%;
+	display: flex;
+	box-sizing: border-box;
+}
+.text{
+	text-align: justify;
+	padding-top: 100px;
+	position: relative;
+	left: 5%;
+}
+#text1 p{
+	font-size: 40px;
+	color: white;
+
+	font-weight: 900;
+	text-transform: capitalize;
+}
+#text2 {
+	font-size: 20px;
+	color: white;
+
+	text-transform: capitalize;
+}
+#text3{
+	font-size: 20px;
+	color: white;
+
+	text-transform: capitalize;
+}
+.image img{
+	position: relative;
+	left: 40%;
+	z-index: 10;
+}
+.video{
+	position: absolute;
+}
+.video video{
+	width: 75%;
+	height: 400px;
+	position: relative;
+	left: 88%;
+
+}
+.separate2{
+	width: 100%;
+	height: 5px;
+	background: grey;
+	position: absolute;
+	top: 100%;
+	z-index: 10;
+}
+
+
+
+.second{
+	width: 100%;
+	height: 446px;
+	position: relative;
+	top: 70%;
+	display: flex;
+	box-sizing: border-box;
+}
+
+
+.texts{
+	text-align: justify;
+	padding-top: 150px;
+	position: relative;
+	left: 5%;
+}
+#text4 p{
+	font-size: 40px;
+	color: white;
+
+	font-weight: 900;
+	text-transform: capitalize;
+}
+#text5 {
+	font-size: 20px;
+	color: white;
+
+	text-transform: capitalize;
+}
+#text6{
+	font-size: 20px;
+	color: white;
+
+	text-transform: capitalize;
+}
+.images{
+	padding-top: 20px;
+}
+.images img{
+	position: relative;
+	left: 40%;
+	z-index: 10;
+}
+.videos{
+	position: absolute;
+}
+.videos video{
+	width: 75%;
+	height: 400px;
+	position: relative;
+	left: 88%;
+
+}
+.separate2{
+	width: 100%;
+	height: 5px;
+	background: grey;
+	position: absolute;
+	top: 100%;
+	z-index: 10;
+}
+
+
+
+
+
+.third{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	top: 70%;
+	display: flex;
+	box-sizing: border-box;
+}
+
+.textt{
+	text-align: justify;
+	padding-top: 200px;
+	position: relative;
+	left: 60%;
+	z-index: 20;
+}
+#text7 p{
+	font-size: 40px;
+	color: white;
+
+	font-weight: 900;
+	text-transform: capitalize;
+}
+#text8 {
+	font-size: 20px;
+	color: white;
+
+	text-transform: capitalize;
+}
+#text9{
+	font-size: 20px;
+	color: white;
+
+	text-transform: capitalize;
+}
+.imaget{
+	padding-top: 60px;
+}
+.imaget img{
+	position: relative;
+	left: -42%;
+	z-index: 10;
+}
+.videot{
+	padding-top: 60px;
+	position: absolute;
+}
+.videot video{
+	width: 75%;
+	height: 400px;
+	position: relative;
+	left: 20%;
+
+}
+.separate2{
+	width: 100%;
+	height: 5px;
+	background: grey;
+	position: absolute;
+	top: 100%;
+	z-index: 10;
+}
+
+
+/*now working with frequentely asked questios*/
+
+.faq{
+	width: 100%;
+	height: 800px;
+	position: relative;
+	top: 80%;
+}
+.textfaq{
+
+}
+.textfaq h2{
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 800;
+/*	margin auto taab hi kaam karta ha jaab width 100% saa kaam ho*/
+	width: 50%;                     
+	margin: auto;
+	padding-bottom: 40px;
+	color: white;
+
+}
+.questions{
+	width: 80%;
+	height: 70px;
+	margin: 10px auto;
+	background: grey;
+	color: white;
+
+	display: flex;
+
+	align-items: center;
+	justify-content: space-between;
+	transition: all 0.3s linear;
+}
+.questions:hover{
+	background: rgb(201, 201, 201);
+}
+.questions img{
+	width: 30px;
+	height: 30px;
+	padding-right: 20px;
+
+}
+.questions p{
+	text-transform: capitalize;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.separate2{
+	width: 100%;
+	height: 5px;
+	background: grey;
+	position: absolute;
+	top: 100%;
+	z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+/*now working with the footer*/
+
+
+
+footer{
+	width: 100%;
+	height: 230px;
+	position: relative;
+	top: 85%;
+}
+.number{
+	font-size: 20px;
+	font-weight: 400;
+	width: 80%;
+	margin: auto;
+	color: white;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 80%;
+	margin: 30px auto;
+}
+.help{
+	display: flex;
+	flex-direction: column;
+}
+.help a{
+	text-decoration: none;
+	color: white;
+
+	font-size: 18px;
+	padding: 5px;
+
+}
+.
